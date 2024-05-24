@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
     <title>Site simples com html e css</title>
 </head>
 <body>
-    <script src="script.js"></script>
+
     <nav>
         <div class="logo">
             <img id="imagemlogo" src="alternativoLogo.png" alt="Descrição da Imagem">
@@ -345,7 +346,20 @@
         </div>
     </section>
 
+<script>
 
+(function teste() {
+    alert("ok")
+    console.log("Verificando a largura da janela: " + window.innerWidth);
+    if (window.innerWidth <= 800) { alert("test")
+        console.log("Redirecionando para index2.html");
+        window.location.href = 'indexMobile.html';
+    } else {
+        console.log("Mantendo na página atual");
+    }
+})();
+teste()
+</script>
     
 </body>
 </html>
