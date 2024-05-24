@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 20px;
+    color: #CBD0F7;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagemlogo {
+    width: 300px; /* Defina a largura desejada */
+    height: auto; /* Deixe a altura automática para manter a proporção */
+}
+
+
+.container-main{
+    background-color: #181920;
+    border-radius: 20px;
+    padding: 30px;
+    height: 90vh;
+    overflow-y: auto;
+
+}
+
+.container-main input{
+    
+}
+
+nav{
+    background-color: white;
+    padding: 10px 60px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner{
+    height: 93vh;
+    display: flex;
+    background-color:#292954;;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* NOME*/
+.font-branca {
+    font-size: 16px;
+    color: #CBD0F7;
+
+}
+
+.nome-alunoInput {
+    width: 60%; /* Define a largura para preencher o contêiner */
+    padding: 8px; /* Adiciona espaço interno */
+    margin-bottom: 10px; /* Adiciona margem inferior */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    box-sizing: border-box; /* Garante que a largura inclua padding e borda */
+}
+/* NOME*/
+
+
+/* SELECT*/
+.serie-alunoLabel {
+    font-weight: bold;
+    display: block;
+}
+
+#serie-alunoSelect {
+    width: 25%;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.options {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* SELECT*/
+
+
+
+
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+.texto .botoes button.n-overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: white;
+}
+.texto .botoes button.overlay{
+    background: white;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+input[type="radio"] {
+    width: 20px; /* Largura personalizada */
+    height: 20px; /* Altura personalizada */
+}
+/* Adiciona espaço entre o input e a label */
+label {
+    margin-right: 20px; /* Ajuste o valor conforme necessário para a quantidade de espaço desejada */
+}
+
+input[type="radio"]:checked + label {
+    font-size: 25PX;
+    font-weight: bold;
+    /* Estilos para o rótulo (label) associado ao radio button marcado */
+    /* Por exemplo, pode alterar a cor do texto */
+}
+
+.pergunnta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#nome-aluno{
+    width: 550px;
+    padding: 10px;
+    font-size: 15PX;
+    color: #181920
+}
+
+
+
+
+
+.texto .botoes{
+    margin-top: 70px;
+}
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.botao-enviar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover */
+.botao-enviar:hover {
+    background-color: #45a049;
+}
+
+
+.texto .botoes button.n-overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: white;
+}
+.texto .botoes button.overlay{
+    background: white;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+@media (max-height:445px){
+    #imagemlogo{
+        width: 250px;
+    }
+    
+    
+    nav{
+        background-color: white;
+        padding: 10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;     
+    }
+}
+
+@media (max-width: 1178px){
+    
+    
+    h1{
+        font-size: 20px;
+        color: #CBD0F7;
+    }
+    
+    .font-branca{
+        font-size: 10px;
+    }
+
+    #serie-alunoSelect{
+        font-size: 10px;
+        width: 200px;
+
+    }
+
+    #nome-aluno{
+        width: 450px;
+        font-size: 10px;
+    }
+
+    .botao-enviar{
+        font-size: 13px;
+    }
+
+ 
+}
+
+@media (max-width: 755px){
+    
+    .container-main{
+        width: 100vh;
+    }
+
+    h1{
+        font-size: 20px;
+        color: #CBD0F7;
+    }
+    
+    .font-branca{
+        font-size: 10px;
+    }
+    .banner {
+        flex-direction: column; /* Altera a direção do flex para empilhar verticalmente */
+        height: auto; /* Altura automática */
+    }
+
+    .container-main {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: calc(100vh - 7vh); /* Calcula a altura da tela menos a altura do nav */
+        overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+        border-radius: 0px;
+    }
+
+    input[type="radio"]:checked + label {
+        font-size: 15PX;
+        font-weight: bold;
+        /* Estilos para o rótulo (label) associado ao radio button marcado */
+        /* Por exemplo, pode alterar a cor do texto */
+    }
+
+ 
+}
+
+@media (max-width: 530px){
+    
+    .container-main{
+        width: 100vh;
+    }
+
+    h1{
+        font-size: 20px;
+        color: #CBD0F7;
+    }
+    
+    .font-branca{
+        font-size: 10px;
+    }
+    .banner {
+        flex-direction: column; /* Altera a direção do flex para empilhar verticalmente */
+        height: auto; /* Altura automática */
+    }
+
+    .container-main {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: calc(100vh - 7vh); /* Calcula a altura da tela menos a altura do nav */
+        overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+        border-radius: 0px;
+    }
+
+    input[type="radio"]:checked + label {
+        font-size: 15PX;
+        font-weight: bold;
+        /* Estilos para o rótulo (label) associado ao radio button marcado */
+        /* Por exemplo, pode alterar a cor do texto */
+    }
+
+    #nome-aluno{
+        font-size: 8px;
+        width: 250px;
+
+    }
+
+ 
+}
+

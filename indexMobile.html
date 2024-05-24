@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site simples com html e css</title>
+</head>
+<body>
+    <script></script>
+    <nav>
+        <div class="logo">
+            <img id="imagemlogo" src="alternativoLogo.png" alt="Descrição da Imagem">
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="container-main">
+            <h1>INCLUA SEU FEEDBACK</h1>
+            <!-- Informações do Aluno -->
+            <form action="https://api.sheetmonkey.io/form/hAVex8F5HV9jG2zWSv9mPR" method="post">
+                <label class="font-branca" id="label-nome-aluno" for="nome-aluno">Nome completo do aluno:</label><br>
+                <input class="font-branca" type="text" id="nome-aluno" name="nome-aluno" required><br><br>
+                
+                <label class="font-branca" for="serie-aluno">Série do aluno:</label>
+                <div class="font-branca">
+                    <select id="serie-alunoSelect" name="serie-aluno" required>
+                        <option class="options" value="">Selecione a série</option>
+                        <option class ="options" value="Grupo 3">Grupo 3</option>
+                        <option class ="options" value="Grupo 4">Grupo 4</option>
+                        <option class ="options" value="Grupo 5">Grupo 5</option>
+                        <option class ="options" value="1º Ano - Anos Iniciais">1º Ano - Anos Iniciais</option>
+                        <option class ="options" value="2º Ano - Anos Iniciais">2º Ano - Anos Iniciais</option>
+                        <option class ="options" value="3º Ano - Anos Iniciais">3º Ano - Anos Iniciais</option>
+                        <option class ="options" value="4º Ano - Anos Iniciais">4º Ano - Anos Iniciais</option>
+                        <option class ="options" value="5º Ano - Anos Iniciais">5º Ano - Anos Iniciais</option>
+                        <option class ="options" value="6º Ano - Anos Finais">6º Ano - Anos Finais</option>
+                        <option class ="options" value="7º Ano - Anos Finais">7º Ano - Anos Finais</option>
+                        <option class ="options" value="8º Ano - Anos Finais">8º Ano - Anos Finais</option>
+                        <option class ="options" value="9º Ano - Anos Finais">9º Ano - Anos Finais</option>
+                        <option class ="options" value="1ª Série - Ensino Médio">1ª Série - Ensino Médio</option>
+                        <option class ="options" value="2ª Série - Ensino Médio">2ª Série - Ensino Médio</option>
+                        <option class ="options" value="3ª Série - Ensino Médio">3ª Série - Ensino Médio</option>
+
+                    </select>
+                    <br><br>
+                    
+                    <!-- Pergunta 1 -->
+                    <label class="font-pergunta" for="pergunta1">1. Quanto você indicaria o Colégio Alternativo a um amigo(a) ou familiar?</label><br>
+                    <select id="pergunta1" name="pergunta1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 2 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta2">2. Com relação à qualidade do atendimento na secretaria da escola, indique seu grau de satisfação:</label><br>
+                    <select id="pergunta2" name="pergunta2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 3 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta3">3. Com relação à qualidade do atendimento pedagógico, indique seu grau de satisfação:</label><br>
+                    <select id="pergunta3" name="pergunta3">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 4 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta4">4. Com relação à qualidade do corpo docente, indique seu grau de satisfação:</label><br>
+                    <select id="pergunta4" name="pergunta4">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 5 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta5">5. Com relação à qualidade do ensino, indique seu grau de satisfação:</label><br>
+                    <select id="pergunta5" name="pergunta5">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 6 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta6">6. Sobre a estrutura física das salas de aula, indique seu grau de satisfação:</label><br>
+                    <select id="pergunta6" name="pergunta6">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 7 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta7">7. Em sua opinião, a escola está preparando adequadamente seu filho para os desafios futuros:</label><br>
+                    <select id="pergunta7" name="pergunta7">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 8 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta8">8. Como você avalia os recursos tecnológicos disponíveis na escola para apoiar a aprendizagem de seu filho:</label><br>
+                    <select id="pergunta8" name="pergunta8">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 9 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta9">9. Como você avalia a variedade de refeições fornecidas pela cantina da escola:</label><br>
+                    <select id="pergunta9" name="pergunta9">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <!-- Pergunta 10 -->
+                    <br><br>
+                    <label class="font-pergunta" for="pergunta10">6. Como você indica a qualidade dos produtos e refeições vendidos na cantina da escola:</label><br>
+                    <select id="pergunta10" name="pergunta10">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+            
+                    <!-- Botão de enviar -->
+                    <br><br>
+                    <button class="botao-enviar" type="submit">Enviar</button>
+                </div>
+            </form>]
+
+        </div>
+    </section>
+
+</body>
+</html>
